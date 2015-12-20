@@ -1,16 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 
-$body-bg:								#bdc3c7;
+$body-bg:								#ecf0f1;
 $font-family-sans-serif:        		'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-default-link-color:				#2980b9;
+$navbar-default-link-color:				#7f8c8d;
+$navbar-default-link-hover-color:		#2980b9;
+$navbar-default-brand-color:			#2980b9;
 $navbar-default-bg:						white;
 $brand-primary:							#2980b9;
-$navbar-default-link-hover-color:		#f1c40f;
 $navbar-height:							45px;
 $jumbotron-heading-color:				#2c3e50;
 $jumbotron-bg:							white;
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 .center {
 	text-align: center;
